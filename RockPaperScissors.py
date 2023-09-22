@@ -10,5 +10,7 @@ elif player_move == 'p':
     player_move = paper
 elif player_move == 's':
     player_move = scissors
+else:
+    raise SystemExit('Invalid input. Try afain ...')
 
 print(player_move)
